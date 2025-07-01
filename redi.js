@@ -2,8 +2,8 @@
       fetch("https://ipinfo.io/json?token=3798a6699b4912")
         .then(response => response.json())
         .then(data => {
-          if(data.country === "BO") {
-            window.location.href = "inicio.html";
+          if(data.country === "CO") {
+            window.location.href = "https://computotrabajo.com/col/trabajo/";
           } else {
             document.documentElement.style.display = "block";
           }
